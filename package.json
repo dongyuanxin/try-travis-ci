@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests --coverage --env=node --detectOpenHandles"
+    "test": "jest --passWithNoTests --coverage --env=node --detectOpenHandles --coverageReporters=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dongyuanxin/try-travis-ci#readme",
   "devDependencies": {
+    "coveralls": "^3.0.3",
     "jest": "^24.7.1"
   }
 }
