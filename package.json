@@ -1,0 +1,22 @@
+{
+  "name": "try-travis-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests --coverage --env=node --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongyuanxin/try-travis-ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongyuanxin/try-travis-ci/issues"
+  },
+  "homepage": "https://github.com/dongyuanxin/try-travis-ci#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
