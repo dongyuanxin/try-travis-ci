@@ -4,5 +4,5 @@ node_js:
   - "8"
   - "10"
 install: 
-  - npm insall
+  - npm install
 script: npm run test
